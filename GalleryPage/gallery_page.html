@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalleryPage</title>
+    <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="gallery_page.css">
+</head>
+<body >
+    <header class="flex justify-between p-5 shadow-md w-full">
+        <div class="flex-initial">
+            <h1 class="m-5 text-2xl font-bold">My Portfolio</h1>
+        </div>
+        
+        <ul class="flex flex-wrap justify-evenly">
+            <li class="m-5 hover:text-blue-500"><a href="/HomePage/home_page.html">HomePage</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/About/about_us.html">Personal Profile</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/GalleryPage/gallery_page.html">Gallery Page</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/CareerGoals/career_goals.html">Career Goals</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/Projects/projects.html">Projects</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/skills/skills.html">Skills and Interests</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/Contact/contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <main class="container mx-auto py-10">
+        <div class="text-center mb-10">
+            <h2 class="text-4xl font-bold mb-4">Gallery</h2>
+            <p class="text-xl text-gray-600">Exploring my hobbies and projects that inspire me.</p>
+        </div>
+        <div class="card-grid">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop&crop=entropy" alt="Coding on laptop" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">Late Night Coding Sessions</h3>
+                    <p class="text-gray-700">Embracing the quiet hours to dive deep into code and bring ideas to life.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&h=300&fit=crop&crop=entropy" alt="Mobile app interface" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">Mobile App Development</h3>
+                    <p class="text-gray-700">Creating intuitive and responsive mobile applications for everyday use.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1577401239170-897942555fb3?w=500&h=300&fit=crop&crop=entropy" alt="Person solving Rubik's cube" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">Puzzle Solving</h3>
+                    <p class="text-gray-700">Sharpening problem-solving skills through challenging puzzles and brain teasers.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=500&h=300&fit=crop&crop=entropy" alt="Web design mockup" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">Web Development</h3>
+                    <p class="text-gray-700">Crafting beautiful and functional websites that leave a lasting impression.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=500&h=300&fit=crop&crop=entropy" alt="Gaming setup" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">Gaming</h3>
+                    <p class="text-gray-700">Exploring virtual worlds and honing strategic thinking through immersive gameplay.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop&crop=entropy" alt="AI chatbot interface" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-2">AI Chatbot Development</h3>
+                    <p class="text-gray-700">Pushing the boundaries of AI to create more intelligent and helpful chatbot experiences.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex justify-between p-5  w-full ">
+        <div class="flex-initial">
+            <h1 class="mx-5 mt-5 text-2xl font-bold">Muneeb Ur Rehman</h1>
+            <h3 class="mx-5 text-md font-semibold">Software Engineer</h3>
+        </div>
+        
+        <section class="m-5 text-black-600">
+            <p>
+                &copy; 2022-2026 MuneebDevss
+            </p>
+        </section>
+    </footer>
+</body>
+</html>

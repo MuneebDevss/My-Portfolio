@@ -1,0 +1,37 @@
+header{
+  background-color: #F9F5F2;   
+}
+body {
+  font-family: 'Carme', sans-serif;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+}
+footer{
+  background-color: #b3d386;
+}
+@media (max-width: 767px) {
+  body {
+      font-size: 14px;
+  }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+      font-size: 16px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  body {
+      font-size: 18px;
+  }
+
+}
+

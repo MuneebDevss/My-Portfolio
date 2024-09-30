@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="about_us.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carme&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="flex justify-between p-5  shadow-md w-full">
+        <div class="flex-initial">
+            <h1 class="m-5 text-2xl font-bold">My Portfolio</h1>
+        </div>
+        
+        <ul class="flex flex-wrap justify-evenly">
+            <li class="m-5 hover:text-blue-500"><a href="/HomePage/home_page.html">HomePage</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/About/about_us.html">Personal Profile</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/GalleryPage/gallery_page.html">Gallery Page</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/CareerGoals/career_goals.html">Career Goals</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/Projects/projects.html">Projects</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/skills/skills.html">Skills and Interests</a></li>
+            <li class="m-5 hover:text-blue-500"><a href="/Contact/contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <main class="ml-10">
+        <div id="about" class="about">
+            <div class="about-container flex" >
+                <div class="about-text w-1/2  font-sans">
+                    <h2 class="text-3xl font-bold my-5">About me</h2>
+                    <p class="about-p text-gray-700 mr-2 text-xl">
+                        I am currently pursuing a degree in Software Engineering from 
+                        <a class="text-blue-500" href="https://www.nu.edu.pk/" target="_blank" class="body-p-link">FAST NUCES University</a>. 
+                        I completed my intermediate studies from 
+                        <a class="text-blue-500" href="https://gcck.edu.pk/" target="_blank" class="body-p-link">Garrison Cadet College Kohat</a> 
+                        in 2022.
+                        <br><br>
+                        From 2022 to 2023, I served as the Game Development Head at 
+                        <a class="text-blue-500" href="https://cfd.nu.edu.pk/societies/google-developer-student-clubs-gdsc/" target="_blank" class="body-p-link">Google Developer Student Club (GDSC)</a>. 
+                        <br><br>
+                        Currently, I am working on improving my skills in app development and web development through self-learning. 
+                        I also offer my services as a freelance developer, specializing in app and web development projects.
+                    </p>
+                    <div class="loves-container flex my-5">
+                        <img  src="https://cdn.prod.website-files.com/5e8c566954381032f62e178b/5ea4096ec07d782ba4331e0c_kristi-loves.svg" width="40" alt="Heart Icon | Passion" class="love-icon mr-2">
+                        <p>I am passionate about coding, game development, problem-solving, and continuously improving my development skills.</p>
+                    </div>
+                </div>
+                <div class="about-image w-1/2 flex justify-center items-center">
+                    <img src="/Images/About.png"  alt="Your Image" class="image">
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="flex justify-between p-5 mt-2 w-full ">
+        <div class="flex-initial">
+            <h1 class="mx-5 mt-5 text-2xl font-bold">Muneeb Ur Rehman</h1>
+            <h3 class="mx-5 text-md font-semibold">Software Engineer</h3>
+        </div>
+        
+        <section class="m-5 text-black-600">
+            <p>
+                &copy; 2022-2026 MuneebDevss
+            </p>
+        </section>
+    </footer>
+</body>
+</html>
