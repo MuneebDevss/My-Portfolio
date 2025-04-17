@@ -50,12 +50,16 @@
 
             <!-- Image Content -->
             <div class="w-full md:w-2/3 relative">
-                <img class="h-auto rounded-lg" src="/Images/HomePage.png" alt="Homepage">
-                <div class="absolute top-0 right-40 max-w-xs">
-                    <img class="h-auto mb-2" src="/Images/Name.png" alt="Name">
-                    <img class="w-24 h-auto mx-auto" src="/Images/arrow.png" alt="Arrow">
-                </div>
-            </div>
+    <img class="h-auto rounded-lg" src="/Images/HomePage.png" alt="Homepage">
+    <div class="absolute -top-10 -right-20 max-w-xs">
+        <!-- Name image: smaller height on mobile, normal on md+ -->
+        <img class="h-8 md:h-auto mb-2" src="/Images/Name.png" alt="Name">
+        
+        <!-- Arrow image: smaller height and width on mobile, normal on md+ -->
+        <img class="w-12 h-8 md:w-24 md:h-auto mx-auto" src="/Images/arrow.png" alt="Arrow">
+    </div>
+</div>
+
         </div>
     </main>
 
